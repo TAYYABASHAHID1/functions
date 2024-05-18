@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+    <script>
+
+
+//1
+function myFunction(){
+var date=new Date();
+document.write(date)
+
+}
+myFunction();
+
+//2
+
+function greet() {
+    var user= prompt(" enter your first name")
+var user1=prompt("enter your last name")
+console.log("Welcome"+" "+user+" "+ user1)
+
+}
+greet();
+
+//3
+
+   
+
+//12
+function findLongestWord(str) {
+    const words = str.split(' ');
+
+    let longestWord = '';
+
+    for (let i = 0; i < words.length; i++) {
+        if (words[i].length > longestWord.length) {
+            longestWord = words[i];
+        }
+    }
+
+    return longestWord;
+}
+var exampleString = 'Web Development Tutorial';
+const longestWord = findLongestWord(exampleString);
+console.log(longestWord); 
+
+
+//5
+function square(number) {
+    return number * number;
+}
+
+const num = 5;
+const result = square(num);
+console.log(result); 
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
